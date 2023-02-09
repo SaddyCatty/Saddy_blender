@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>悲伤小猫猫主题页</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="showcase">
+      <header>
+        <div class="logo">
+          <img
+            src="https://gitee.com/MASUKA/video_background_page/raw/master/assets/logo.png"
+            alt=""
+          />
+        </div>
+        <div class="toggle"></div>
+      </header>
+      <video
+        src="C:\Users\86136\Desktop\assets\0001-0120.mp4"
+        autoplay
+        loop
+        muted
+      ></video>
+      <div class="overlay"></div>
+      <div class="text">
+        <h2>Blender</h2>
+        <h3>makes Everything possible!</h3>
+        <p>
+          One of the most fascinating modeling softwares in the word ! Free to
+          use , a large variety of functions included ! RTX supported!
+        </p>
+        <a href="https://www.blender.org/">JOIN US NOW!</a>
+      </div>
+      <u1 class="social">
+        <li>
+          <a href="https://im.qq.com/index"
+            ><img
+              src="https://gitee.com/MASUKA/video_background_page/raw/master/assets/qq.png"
+          /></a>
+        </li>
+        <li>
+          <a href="https://weixin.qq.com/"
+            ><img
+              src="https://gitee.com/MASUKA/video_background_page/raw/master/assets/weixin.png"
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://weibo.com/newlogin?tabtype=weibo&gid=102803&openLoginLayer=0&url=https%3A%2F%2Fweibo.com%2F"
+            ><img
+              src="https://gitee.com/MASUKA/video_background_page/raw/master/assets/weibo.png"
+          /></a>
+        </li>
+      </u1>
+    </section>
+    <div class="menu">
+      <ul>
+        <li style="--clr: #00ade1">
+          <a href="#" data-text="&nbsp;Blender">&nbsp;Blender&nbsp;</a>
+        </li>
+        <li style="--clr: #ff6493">
+          <a href="#" data-text="&nbsp;Introduce">&nbsp;Introduce&nbsp;</a>
+        </li>
+        <li style="--clr: #ffdd1c">
+          <a href="#" data-text="&nbsp;Coachs">&nbsp;Coachs&nbsp;</a>
+        </li>
+        <li style="--clr: #00dc82">
+          <a href="#" data-text="&nbsp;Lessions">&nbsp;Lessions&nbsp;</a>
+        </li>
+        <li style="--clr: #dc00d4">
+          <a href="#" data-text="&nbsp;Destination">&nbsp;Destination&nbsp;</a>
+        </li>
+      </ul>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".toggle");
+      const showcase = document.querySelector(".showcase");
+
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active");
+        showcase.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
